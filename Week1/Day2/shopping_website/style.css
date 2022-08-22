@@ -1,0 +1,21 @@
+header {
+    background-color: blanchedalmond;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: -webkit-fill-available;
+    padding: 15px 20px;
+}
+header + a {
+    magin-right: 5%;
+}
+
+footer {
+    background-color: blanchedalmond;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    text-align: center;
+    padding: 15px;
+}

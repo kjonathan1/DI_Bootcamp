@@ -1,0 +1,88 @@
+3.card-group{
+    
+}
+
+.card {
+    width: 250px;
+    display: inline-block;
+}
+
+.card-img {
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 250px;
+    height: 300px;
+}
+
+.card-txt {
+    text-align: center;
+
+}
+
+.item-title {
+
+}
+
+.item-price {
+    font-size: small;
+    text-decoration: line-through;
+}
+
+.item-price-promo {
+    color: greenyellow;
+}
+
+.item-button {
+    background-color: white;
+    padding: 3px;
+    border-radius: 5px;
+    border: 3px solid #e5e2e2
+}
+
+.is-new {
+    position: relative;
+    top: 20px;
+    left: 20px;
+    background-color: #84ee1d;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.reduction {
+    position: relative;
+    top: 20px;
+    left: 150px;
+    background-color: #eb4747;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+
+section > div:hover {
+    box-shadow: 10px 10px 10px 10px #eeecdd;
+}
+
+.card-icon-group{
+    position: relative;
+    top: 130px;
+    left: 20px;
+    display: none;
+
+}
+
+.card-icon-group:hover {
+    position: relative;
+    top: 130px;
+    left: 20px;
+
+}
+
+.card-icon{
+    display: inline-block;
+    margin: 5px;
+    background-color: white;
+    width: 15px;
+    height:15px;
+    padding: 5px;
+    text-align:-webkit-center;
+}
