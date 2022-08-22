@@ -1,0 +1,66 @@
+
+
+body {
+    background-image: url("https://cdn.pixabay.com/photo/2022/06/05/11/06/action-figures-7243788__340.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    padding: 14px 16px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-color: #333;
+}
+
+ul {
+    list-style-type: none;
+    background-color: #333;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    margin: 0px;
+    background-size: cover;
+}
+header {
+    background-color: #333;
+    margin: -10px
+}
+
+li a:hover{
+    background-color: #111;
+}
+.active {
+    background-color: #04AA6D;
+}
+
+.content {
+    color: whitesmoke;
+    opacity: 90%;
+    width: 500px;
+    position: relative;
+    top: 40%;
+    left: 10%;
+}
+
+footer {
+    background-color: rgb(114, 41, 41);
+    color: rgb(0, 255, 242);
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a {
+    color: aliceblue;
+}
+
