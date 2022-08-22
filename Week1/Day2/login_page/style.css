@@ -1,0 +1,20 @@
+.card-main {
+    text-align: center;
+}
+
+.card1 {
+    background-color: rgb(235, 223, 223);
+    width: 49%;
+    height: 100%;
+    text-align: Scenter;
+    display: inline-block;
+}
+
+.card2 {
+    background-color: rgb(207, 50, 50);
+    width: 49%;
+    height: 100%;
+    text-align: center;
+    display: inline-block;
+    background-size: cover;
+}
